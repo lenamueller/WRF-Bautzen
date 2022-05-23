@@ -1,0 +1,1 @@
+srun -n 1 -c 12 --time=1:00:00 --exclusive --mem-per-cpu=1700 wget https://www2.mmm.ucar.edu/wrf/src/wps_files/geog_high_res_mandatory.tar.gz
