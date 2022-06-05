@@ -9,7 +9,7 @@ day = sys.argv[3].zfill(2)
 hour = sys.argv[4].zfill(2)
 
 # set filename structure
-filename = f'ERA5_sfc_{year}_{month}_{day}_{hour}'
+filename = f'ERA5_SFC_{year}_{month}_{day}_{hour}'
 
 # download data
 c = cdsapi.Client()
